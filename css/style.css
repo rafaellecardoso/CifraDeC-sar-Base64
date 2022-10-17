@@ -83,13 +83,38 @@ body{
     height: auto;
     margin-top: 4%;
 }
+
 .container-btn button{
     border: 2px solid var(--cortitulo);
     border-radius: 10px;
     text-decoration: none;
-    color: #7c0160;
+    color: #01097c;
     width: 150px;
     height: 50px;
     margin-left: 4%;
     cursor: pointer;
+}
+
+.container-btn button:hover{
+    border: 2px solid var(--cortitulo);
+    transition: 0.5s all; 
+}
+
+.rodapé{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--corprincipal);
+    color: var(--cortitulo);
+}
+.rodapé h3{
+    font-size:16px;
+}
+
+.icons ion-icon{
+    width: 25px ;
+    height: 25px;
+    
 }
