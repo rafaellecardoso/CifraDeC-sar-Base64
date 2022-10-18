@@ -1,17 +1,7 @@
 :root{
     --corprincipal:#00BFFF;
     --corsegundaria: #191970;
-    --cortitulo: #ADD8E6;
-}
-
-body{
-    background: var(--corsegundaria);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'rubik', sans-serif;
+    --cortitulo: rgb(110, 177, 199);
 }
 
 .cabeçalho{
@@ -25,96 +15,57 @@ body{
 }
 
 .cabeçalho img{
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 80px;
+    max-height: 80px;
     width: auto;
     height: auto;
 }
 
-.container-input{
-    display: flex;
-    justify-content: space-between;
-    padding: 2% 0 0 4%;
-}
 
-.container-input .input{
-    width: 400px;
-    height: 330px;
-}
 
-#input-texto{
-    width: 345px;
-    height: 330px;
-    font-size: 20px;
-    color: var(--cortitulo);
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    outline: 0;
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-#output{
-    display: flex;
-    flex-direction: column;
-    border: 3px solid var(--cortitulo);
-    border-radius: 200px;
-    width: 350px;
-    height: 400px;
-    margin-right: 3%;
-}
-
-#output h2{
-    text-align: center;
-    font-size: 25px;
-    color: var(--cortitulo);
-}
-
-#output span{
-    font-size: 16px;
-    text-align: center;
-}
-
-#output img{
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    margin-top: 4%;
-}
-
-.container-btn button{
-    border: 2px solid var(--cortitulo);
-    border-radius: 10px;
-    text-decoration: none;
-    color: #01097c;
-    width: 150px;
-    height: 50px;
-    margin-left: 4%;
-    cursor: pointer;
-}
-
-.container-btn button:hover{
-    border: 2px solid var(--cortitulo);
-    transition: 0.5s all; 
-}
-
-.rodapé{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    margin-top: 15px;
-    background: var(--corprincipal);
-    color: var(--cortitulo);
-}
-.rodapé h3{
-    font-size:16px;
-}
-
-.icons ion-icon{
-    width: 25px ;
-    height: 25px;
+/* Estilos gerais */
+*{
+    margin-top: 10px;
+    }
     
-}
+    /* Estilos do corpo */
+    body{
+    text-align: center;
+    background-color: var(--corsegundaria);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    color: #E0E0E0;
+    }
+    
+    /* Estilos gerais */
+    .botao-estilo{
+      display: inline-block;
+      padding: 10px 5px;
+      background: var(--corprincipal);
+      border-radius: 10px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      text-transform: uppercase;
+      color: #000000;
+      font: 600 1.125rem/1.35 "Poppins", sans-serif;
+      max-width: max-content;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .caixa {
+      border-radius: 10px;
+      box-shadow:  10px 20px var(--cortitulo);
+    }
+    
+    .caixa-2 {
+      border-radius: 40px;
+      box-shadow:  10px 5px var(--cortitulo);
+    }
+    
+    .botao-estilo:hover {
+      background: var(--cortitulo);
+    }
