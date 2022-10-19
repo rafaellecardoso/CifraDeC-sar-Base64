@@ -22,50 +22,49 @@
 }
 
 
-
 /* Estilos gerais */
 *{
-    margin-top: 10px;
-    }
+  margin-top: 10px;
+}
     
-    /* Estilos do corpo */
-    body{
-    text-align: center;
-    background-color: var(--corsegundaria);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    width: 500px;
-    margin: 0 auto;
-    color: #E0E0E0;
-    }
+/* Estilos do corpo */
+body{
+  text-align: center;
+  background-color: var(--corsegundaria);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  color: #E0E0E0;
+}
     
-    /* Estilos gerais */
-    .botao-estilo{
-      display: inline-block;
-      padding: 10px 5px;
-      background: var(--corprincipal);
-      border-radius: 10px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-      text-transform: uppercase;
-      color: #000000;
-      font: 600 1.125rem/1.35 "Poppins", sans-serif;
-      max-width: max-content;
-      border: none;
-      cursor: pointer;
-    }
+/* Estilos gerais */
+.botao-estilo{
+  display: inline-block;
+  padding: 10px 5px;
+  background: var(--corprincipal);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #000000;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
     
-    .caixa {
-      border-radius: 10px;
-      box-shadow:  10px 20px var(--cortitulo);
-    }
+.caixa {
+  border-radius: 10px;
+  box-shadow:  10px 20px var(--cortitulo);
+}
     
-    .caixa-2 {
-      border-radius: 40px;
-      box-shadow:  10px 5px var(--cortitulo);
-    }
+.caixa-2 {
+  border-radius: 40px;
+  box-shadow:  10px 5px var(--cortitulo);
+}
     
-    .botao-estilo:hover {
-      background: var(--cortitulo);
-    }
+.botao-estilo:hover {
+  background: var(--cortitulo);
+}
